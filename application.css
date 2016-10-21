@@ -1,0 +1,46 @@
+.tab-container {
+  border: 1px black solid;
+}
+
+.tab-container h1 {
+  text-align: center;
+}
+
+.tab-list {
+  width: 100%;
+  padding-left: 0;
+  overflow: auto;
+}
+
+.tab {
+  width: 33.33%;
+  float: left;
+  cursor: pointer;
+}
+
+.tab:hover h3 {
+  background: #000;
+  color: #fff;
+}
+
+.tabs-header h3 {
+  text-align: center;
+  border: 1px black solid;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px
+}
+
+
+
+.tab-content {
+  /*display: none;*/
+  width: 100%;
+  background-color: blue;
+  /*height: 100px;*/
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+
+}
