@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Tabs from './tabs.jsx';
-import Clock from './weather_clock.jsx';
+import { Clock , Weather } from './weather_clock.jsx';
 import Autocomplete from './autocomplete.jsx';
 
 
@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   ReactDOM.render(
     <div>
       <Tabs objects={TABS} />
+      <Weather />
       <Clock />
     </div>,
     root
@@ -18,8 +19,9 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+
 let TABS = [
-  {title: "One", content: "this is tab one!!"},
-  {title: "Two", content: "this is tab Two!!"},
-  {title: "Three", content: "this is tab three!!"},
+  {title: "One", content: "This is tab one!!"},
+  {title: "Two", content: "This is tab Two!!"},
+  {title: "Three", content: "This is tab three!!"},
 ];
