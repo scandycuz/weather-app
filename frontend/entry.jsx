@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <Tabs objects={TABS} />
       <Weather />
       <Clock />
+      <Autocomplete names={NAMES} />
     </div>,
     root
   );
@@ -25,3 +26,7 @@ let TABS = [
   {title: "Two", content: "This is tab Two!!"},
   {title: "Three", content: "This is tab three!!"},
 ];
+
+let NAMES = [
+  "Allan", "Suzy", "Robertson", "Quarky", "Blips", "Margaret", "Bubba"
+]

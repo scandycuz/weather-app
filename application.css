@@ -1,4 +1,4 @@
-/* -------------------------TABS----------------------------*/
+/* -------------------------MAIN----------------------------*/
 
 h1, h2, h3, h4, h5, h6 {
   font-family: work sans;
@@ -6,6 +6,13 @@ h1, h2, h3, h4, h5, h6 {
 label, input, p {
   font-family: open sans;
 }
+
+#root {
+  max-width: 900px;
+  margin: 1em auto;
+}
+
+/* -------------------------TABS----------------------------*/
 
 .tab-container {
   border: 1px black solid;
@@ -84,9 +91,24 @@ label, input, p {
   font-size: 28px;
 }
 
+/* -------------------------NAME SEARCH--------------------------*/
 
+.name-search {
+  padding: 1em;
+  box-sizing: border-box;
+}
 
-
+.name-search h3 {
+  font-size: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+.name-search ul {
+  list-style: none;
+}
+.name-search ul li {
+  cursor: pointer;
+}
 
 
 

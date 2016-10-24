@@ -5,7 +5,6 @@ class Weather extends React.Component {
     super();
 
     this.state = { weather: "" };
-    // this.loadXMLDoc(crd) = this.loadXMLDoc(crd).bind(this);
   }
 
   componentDidMount() {
